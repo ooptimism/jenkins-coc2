@@ -11,5 +11,7 @@ RUN update-ca-certificates
 #RUN /usr/local/bin/install-plugins.sh \
 #  gerrit-trigger \
 #  kubernetes
+USER jenkins
+
 
 ENTRYPOINT ["/sbin/tini", "--", "/usr/local/bin/jenkins.sh"]
