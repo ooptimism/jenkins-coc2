@@ -8,8 +8,7 @@ COPY neu2.crt /usr/local/share/ca-certificates
 RUN update-ca-certificates
 
 COPY generate_key.sh /usr/local/bin/generate_key.sh
-COPY entrypoint.sh /entrypoint.sh
-RUN entrypoint.sh
+RUN generate_key.sh
 
 # Install plugins
 #RUN /usr/local/bin/install-plugins.sh \
