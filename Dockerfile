@@ -5,9 +5,11 @@ USER root
 
 # install neu root CA
 COPY neu2.crt /usr/local/share/ca-certificates
+RUN update-ca-certificates
+
 COPY generate_key.sh /usr/local/bin/generate_key.sh
 COPY entrypoint.sh /entrypoint.sh
-RUN update-ca-certificates entrypoint.sh
+RUN entrypoint.sh
 
 # Install plugins
 #RUN /usr/local/bin/install-plugins.sh \
