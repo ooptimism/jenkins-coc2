@@ -13,8 +13,9 @@ RUN update-ca-certificates
 #  kubernetes
 USER jenkins
 
+# Generate jenkins ssh key.
 COPY generate_key.sh /usr/local/bin/generate_key.sh
-RUN generate_key.sh
 
-ENTRYPOINT ["/sbin/tini", "--", "/usr/local/bin/jenkins.sh"]
+COPY entrypoint.sh /entrypoint.sh
+ENTRYPOINT ["/entrypoint.sh"]
 
