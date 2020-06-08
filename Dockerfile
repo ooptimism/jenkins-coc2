@@ -6,7 +6,7 @@ USER root
 # install neu root CA
 COPY neu2.crt /usr/local/share/ca-certificates
 RUN update-ca-certificates
-RUN apt-get install make
+RUN apt-get update && apt-get install -y make
 # Install plugins
 #RUN /usr/local/bin/install-plugins.sh \
 #  gerrit-trigger \
