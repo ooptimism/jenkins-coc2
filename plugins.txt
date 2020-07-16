@@ -1,13 +1,13 @@
 docker-build-step:2.4
-Configuration as Code:1.41
+Configuration-as-Code:1.41
 kubernetes:1.25.7
 Credentials:2.3.7
-Email Extension:2.69
-Email Extension Template:1.1
-SSH Agent:1.19
+Email-Extension:2.69
+Email-Extension-Template:1.1
+SSH-Agent:1.19
 Git:4.2.2
-Git client:4.2.1
+Git-client:4.2.1
 Pipeline:2.6
-Pipeline: Basic Steps:2.20
-Pipeline: Stage Step:2.3
-Gerrit Trigger:2.30.5
+Pipeline: Basic-Steps:2.20
+Pipeline: Stage-Step:2.3
+Gerrit-Trigger:2.30.5
