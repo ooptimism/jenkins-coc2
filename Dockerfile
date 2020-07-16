@@ -9,6 +9,7 @@ RUN update-ca-certificates
 RUN apt-get update && apt-get install -y make
 COPY plugins.txt /usr/share/jenkins/ref/
 RUN /usr/local/bin/plugins.sh /usr/share/jenkins/ref/plugins.txt
+ENV SomeUserPassword=123
 ENV SSH_PRIVATE_KEY=/var/jenkins_home/.ssh/id_rsa
 ENV CASC_JENKINS_CONFIG=/var/jenkins_home/casc_configs/credentials.yaml
 COPY credentials.yaml $CASC_JENKINS_CONFIG
