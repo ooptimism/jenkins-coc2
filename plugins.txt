@@ -2,8 +2,8 @@ docker-build-step:2.4
 configuration-as-code:1.41
 kubernetes:1.25.7
 credentials:2.3.7
-email-extension:2.69
-email-extension-Template:1.1
+email-extension-plugin:2.69
+email-extension-template-plugin:1.1
 ssh-agent:1.19
 git:4.2.2
 git-client:4.2.1
