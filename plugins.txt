@@ -6,7 +6,7 @@ email-ext:2.69
 emailext-template:1.1
 ssh-agent:1.19
 git:4.2.2
-git-client:4.2.1
+git-client:3.2.1
 workflow-aggregator:2.6
 workflow-basic-steps:2.20
 pipeline-stage-step:2.3
