@@ -1,5 +1,5 @@
 docker-build-step:2.4
-Configuration-as-Code:1.41
+Configuration as Code:1.41
 kubernetes:1.25.7
 Credentials:2.3.7
 Email-Extension:2.69
