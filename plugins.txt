@@ -43,6 +43,8 @@ workflow-durable-task-step:2.35
 pipeline-build-step:2.12
 gerrit-trigger:2.30.5
 #Job and Node ownership
+ace-editor:1.1
+jquery-detached:1.2.1
 workflow-cps:2.81
 apache-httpcomponents-client-4-api:4.5.10-2.0
 matrix-auth:2.6.2
