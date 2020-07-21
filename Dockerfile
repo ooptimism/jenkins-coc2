@@ -8,7 +8,7 @@ COPY neu2.crt /usr/local/share/ca-certificates
 RUN update-ca-certificates
 RUN apt-get update && apt-get install -y make
 COPY plugins.txt /usr/share/jenkins/ref/
-RUN /usr/local/bin/install-plugins.sh /usr/share/jenkins/ref/plugins.txt
+RUN /usr/local/bin/install-plugins.sh plugins.txt
 ENV SomeUserPassword=123
 ENV SSH_PRIVATE_KEY=/var/jenkins_home/.ssh/id_rsa
 # Install plugins
