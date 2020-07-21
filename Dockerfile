@@ -7,7 +7,7 @@ USER root
 COPY neu2.crt /usr/local/share/ca-certificates
 RUN update-ca-certificates
 RUN apt-get update && apt-get install -y make
-RUN /usr/local/bin/install-plugins.sh workflow-basic-steps pipeline-stage-step kubernetes git-client git ssh-agent gerrit-trigger ownership email-ext emailext-template
+RUN /usr/local/bin/install-plugins.sh workflow-basic-steps pipeline-stage-step kubernetes git-client git ssh-agent gerrit-trigger ownership email-ext emailext-template configuration-as-code
 ENV SomeUserPassword=123
 ENV SSH_PRIVATE_KEY=/var/jenkins_home/.ssh/id_rsa
 # Install plugins
