@@ -3,12 +3,12 @@ credentials:
     domainCredentials:
     - credentials:
       - usernamePassword:
-          id: "basic-SSH"
+          id: "gerrit"
           password: "123"
           scope: GLOBAL
           username: "xue.lm"
       - usernamePassword:
-          id: "test"
+          id: "nexus3"
           password: "123"
           scope: GLOBAL
           username: "xuelimin"
