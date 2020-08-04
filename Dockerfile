@@ -18,8 +18,6 @@ ENV CASC_JENKINS_CONFIG=/jenkins/casc_configs
 COPY config.yaml /jenkins/casc_configs/config.yaml
 
 USER jenkins
-#configurate .netrc
-COPY .netrc /var/jenkins_home/.netrc
 # Generate jenkins ssh key.
 COPY generate_key.sh /usr/local/bin/generate_key.sh
 COPY entrypoint.sh /entrypoint.sh
