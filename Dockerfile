@@ -16,6 +16,8 @@ RUN /usr/local/bin/install-plugins.sh workflow-basic-steps pipeline-stage-step k
 RUN mkdir -p /jenkins/casc_configs
 ENV CASC_JENKINS_CONFIG=/jenkins/casc_configs
 COPY config.yaml /jenkins/casc_configs/config.yaml
+#configurate .netrc
+RUN mv .netrc ~/.netrc
 
 USER jenkins
 # Generate jenkins ssh key.
