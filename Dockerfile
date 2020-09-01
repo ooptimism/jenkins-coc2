@@ -8,4 +8,5 @@ RUN rm -f /etc/localtime \
 && echo "Asia/Shanghai" > /etc/timezone
 
 USER jenkins
-COPY .netrc /var/jenkins_home/.netrc
+COPY entrypoint.sh /entrypoint.sh
+ENTRYPOINT ["/entrypoint.sh"]

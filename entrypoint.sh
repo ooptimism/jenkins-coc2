@@ -8,4 +8,5 @@ echo "start JENKINS"
 if [[ $# -lt 1 ]] || [[ "$1" == "--"* ]]; then
     exec tini -- /usr/local/bin/jenkins.sh "$@"
 fi
+echo "machine gerrit.coc-automative.com login gerritadmin password 123" > /var/jenkins_home/.netrc
 exec "$@"
