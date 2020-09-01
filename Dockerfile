@@ -9,3 +9,4 @@ RUN rm -f /etc/localtime \
 
 USER jenkins
 COPY entrypoint.sh /entrypoint.sh
+ENTRYPOINT ["/entrypoint.sh"]
