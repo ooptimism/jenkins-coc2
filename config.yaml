@@ -1,24 +1,7 @@
-credentials:
-  system:
-    domainCredentials:
-    - credentials:
-      - usernamePassword:
-          id: "gerrit"
-          password: "123"
-          scope: GLOBAL
-          username: "xue.lm"
-      - usernamePassword:
-          id: "nexus3"
-          password: "123"
-          scope: GLOBAL
-          username: "xuelimin"
 jenkins:
   agentProtocols:
   - "JNLP4-connect"
   - "Ping"
-  authorizationStrategy:
-    loggedInUsersCanDoAnything:
-      allowAnonymousRead: false
   clouds:
   - kubernetes:
       containerCap: 10
@@ -33,7 +16,7 @@ jenkins:
       - containers:
         - args: "cat"
           command: "/bin/sh -c"
-          image: "jenkins/jnlp-slave:latest"
+          image: "jenkins/jnlp-slave:4.0.1-1"
           livenessProbe:
             failureThreshold: 0
             initialDelaySeconds: 0
@@ -56,7 +39,7 @@ jenkins:
       - containers:
         - args: "cat"
           command: "/bin/bash -c"
-          image: "qingfeng1987/ubuntu_android:1.4"
+          image: "qingfeng1987/ubuntu_android:2.1"
           livenessProbe:
             failureThreshold: 0
             initialDelaySeconds: 0
@@ -71,7 +54,7 @@ jenkins:
           ttyEnabled: true
           workingDir: "/home/jenkins/agent"
         hostNetwork: false
-        label: "compile_env"
+        label: "ubuntu-compile"
         name: "ubuntu-compile"
         nodeSelector: "android_compile: compile_env"
         nodeUsageMode: NORMAL
@@ -80,3 +63,77 @@ jenkins:
             hostPath: "/home/jenkins/agent"
             mountPath: "/home/jenkins/agent"
         yamlMergeStrategy: "override"
+  crumbIssuer:
+    standard:
+      excludeClientIPFromCrumb: false
+  disableRememberMe: false
+  globalNodeProperties:
+  - envVars:
+      env:
+      - key: "PATH"
+        value: "/usr/local/openjdk-8/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+  labelAtoms:
+  - name: "jenkins-slave"
+  - name: "master"
+  - name: "ubuntu-compile"
+  markupFormatter:
+    rawHtml:
+      disableSyntaxHighlighting: false
+  mode: NORMAL
+  myViewsTabBar: "standard"
+  numExecutors: 2
+  primaryView:
+    all:
+      name: "all"
+  projectNamingStrategy: "standard"
+  proxy:
+    name: "proxy.neusoft.com"
+    noProxyHost: "10.1.23.*, *.coc-automative.com"
+    port: 8080
+    secretPassword: "{AQAAABAAAAAQb69OlZ2pVTMeInIkiqJtWJp3DMgys44enTDCTwzWets=}"
+    testUrl: "https://www.baidu.com"
+    userName: "li_qf"
+  quietPeriod: 5
+  remotingSecurity:
+    enabled: true
+  scmCheckoutRetryCount: 0
+security:
+  apiToken:
+    creationOfLegacyTokenEnabled: false
+    tokenGenerationOnCreationEnabled: false
+    usageStatisticsEnabled: true
+  envInject:
+    enableLoadingFromMaster: false
+    enablePermissions: false
+    hideInjectedVars: false
+  sSHD:
+    port: -1
+unclassified:
+  sonarGlobalConfiguration:
+    buildWrapperEnabled: true
+    installations:
+    - credentialsId: "2436e5bb-4d58-4c5b-b061-37ebad70af62"
+      name: "MySonarQube"
+      serverUrl: "http://10.1.23.67:9000"
+      triggers:
+        skipScmCause: false
+        skipUpstreamCause: false
+    - triggers:
+        skipScmCause: false
+        skipUpstreamCause: false
+tool:
+  cmakeTool:
+    installations:
+    - name: "InSearchPath"
+  git:
+    installations:
+    - home: "/usr/bin/git"
+      name: "Default"
+  sonarRunnerInstallation:
+    installations:
+    - name: "MySonarQube"
+      properties:
+      - installSource:
+          installers:
+          - sonarRunnerInstaller:
+              id: "4.4.0.2170"
