@@ -1,4 +1,4 @@
-FROM jenkins/jenkins:2.235.2-lts
+FROM jenkins/jenkins:2.222.4-lts
 MAINTAINER lqf <bbsywj@gmail.com>
 
 USER root
@@ -12,7 +12,7 @@ RUN apt-get update && apt-get install -y make
 #  gerrit-trigger \
 #  kubernetes
 #configuration
-RUN /usr/local/bin/install-plugins.sh workflow-basic-steps pipeline-stage-step kubernetes git-client git ssh-agent gerrit-trigger ownership email-ext emailext-template configuration-as-code workflow-aggregator http-post poll-mailbox-trigger build-user-vars sonarqube-generic-coverage
+RUN /usr/local/bin/install-plugins.sh workflow-basic-steps pipeline-stage-step kubernetes git-client git ssh-agent gerrit-trigger ownership email-ext emailext-template configuration-as-code workflow-aggregator http-post poll-mailbox-trigger build-user-vars junit:1.29
 RUN rm -f /etc/localtime \
 && ln -sv /usr/share/zoneinfo/Asia/Shanghai /etc/localtime \
 && echo "Asia/Shanghai" > /etc/timezone
