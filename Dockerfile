@@ -17,9 +17,6 @@ RUN rm -f /etc/localtime \
 && ln -sv /usr/share/zoneinfo/Asia/Shanghai /etc/localtime \
 && echo "Asia/Shanghai" > /etc/timezone
 RUN apt-get update && apt-get install -y libcurl4-openssl-dev
-RUN mkdir -p /jenkins/casc_configs
-ENV CASC_JENKINS_CONFIG=/jenkins/casc_configs
-COPY config.yaml /jenkins/casc_configs/config.yaml
 RUN wget https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-4.4.0.2170-linux.zip
 
 USER jenkins
