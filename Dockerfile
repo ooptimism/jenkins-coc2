@@ -12,7 +12,7 @@ RUN apt-get update && apt-get install -y make
 #  gerrit-trigger \
 #  kubernetes
 #configuration
-RUN /usr/local/bin/install-plugins.sh workflow-basic-steps pipeline-stage-step kubernetes git-client git ssh-agent gerrit-trigger ownership email-ext emailext-template configuration-as-code workflow-aggregator http-post poll-mailbox-trigger build-user-vars junit:1.29 sonar:2.12
+RUN /usr/local/bin/install-plugins.sh workflow-basic-steps pipeline-stage-step kubernetes git-client git ssh-agent gerrit-trigger ownership email-ext emailext-template configuration-as-code workflow-aggregator http-post poll-mailbox-trigger build-user-vars junit:1.29 sonar:2.12 date-parameter role-strategy
 RUN rm -f /etc/localtime \
 && ln -sv /usr/share/zoneinfo/Asia/Shanghai /etc/localtime \
 && echo "Asia/Shanghai" > /etc/timezone
