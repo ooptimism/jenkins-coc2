@@ -1,0 +1,350 @@
+credentials:
+  system:
+    domainCredentials:
+    - credentials:
+      - basicSSHUserPrivateKey:
+          id: "ac496aae-a69c-4ecd-9714-4e34558b0bb6"
+          privateKeySource:
+            directEntry:
+              privateKey: "{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}"
+          scope: GLOBAL
+          username: "credential-test"
+      - usernamePassword:
+          id: "basic-SSH"
+          password: "{AQAAABAAAAAQDNRUrdYTY1QUwzGqpFcG0aVuUM5M4lyaYLsvTe8sO3g=}"
+          scope: GLOBAL
+          username: "xue.lm"
+      - usernamePassword:
+          id: "b27d8924-a3f8-4292-9569-ff533e91337d"
+          password: "{AQAAABAAAAAwMQ6upmjNYLsirZi6zZOTLhXAkdHZ0moFpDvLzfXbUmAfYuDJhkNFSPncHWKnQGF+cXWAjTH6q8320CVNsWFfbg==}"
+          scope: GLOBAL
+          username: "xuelimin"
+jenkins:
+  agentProtocols:
+  - "JNLP4-connect"
+  - "Ping"
+  authorizationStrategy:
+    loggedInUsersCanDoAnything:
+      allowAnonymousRead: false
+  clouds:
+  - kubernetes:
+      containerCap: 10
+      containerCapStr: "10"
+      jenkinsUrl: "http://jenkins.kubernetes-plugin:8080"
+      maxRequestsPerHost: 32
+      maxRequestsPerHostStr: "32"
+      name: "kubernetes"
+      serverUrl: "https://kubernetes.default"
+      skipTlsVerify: true
+      templates:
+      - containers:
+        - args: "cat"
+          command: "/bin/sh -c"
+          image: "jenkins/jnlp-slave:latest"
+          livenessProbe:
+            failureThreshold: 0
+            initialDelaySeconds: 0
+            periodSeconds: 0
+            successThreshold: 0
+            timeoutSeconds: 0
+          name: "jenkins-slave"
+          resourceLimitCpu: "8"
+          resourceLimitMemory: "10Gi"
+          resourceRequestCpu: "6"
+          resourceRequestMemory: "8Gi"
+          ttyEnabled: true
+          workingDir: "/home/jenkins/agent"
+        hostNetwork: false
+        label: "jenkins-slave"
+        name: "jenkins-slave"
+        nodeSelector: "android_compile: compile_env"
+        nodeUsageMode: NORMAL
+        volumes:
+        - hostPathVolume:
+            hostPath: "/home/jenkins/agent"
+            mountPath: "/home/jenkins/agent"
+        yaml: "apiVersion: v1\nKind: Pod\nmetadata:\n    name: android_compile\n \
+          \   lables: android_compile\nspec:\n    containers:\n    - name: ubuntu_android\n\
+          \    images: qingfeng1987/ubuntu_android:1.0\n    imagePullPolicy: IfNotPresent\n\
+          \    resources: \n        limits:\n            cpu: 8\n            memory:\
+          \ 16G\n        requests:\n            cpu: 4\n            memory: 10G"
+        yamlMergeStrategy: "merge"
+        yamls:
+        - "apiVersion: v1\nKind: Pod\nmetadata:\n    name: android_compile\n    lables:\
+          \ android_compile\nspec:\n    containers:\n    - name: ubuntu_android\n\
+          \    images: qingfeng1987/ubuntu_android:1.0\n    imagePullPolicy: IfNotPresent\n\
+          \    resources: \n        limits:\n            cpu: 8\n            memory:\
+          \ 16G\n        requests:\n            cpu: 4\n            memory: 10G"
+      - containers:
+        - args: "cat"
+          command: "/bin/bash -c"
+          image: "qingfeng1987/ubuntu_android:1.4"
+          livenessProbe:
+            failureThreshold: 0
+            initialDelaySeconds: 0
+            periodSeconds: 0
+            successThreshold: 0
+            timeoutSeconds: 0
+          name: "ubuntu-compile"
+          resourceLimitCpu: "8"
+          resourceLimitMemory: "10Gi"
+          resourceRequestCpu: "6"
+          resourceRequestMemory: "8Gi"
+          ttyEnabled: true
+          workingDir: "/home/jenkins/agent"
+        hostNetwork: false
+        label: "compile_env"
+        name: "ubuntu-compile"
+        nodeSelector: "android_compile: compile_env"
+        nodeUsageMode: NORMAL
+        volumes:
+        - hostPathVolume:
+            hostPath: "/home/jenkins/agent"
+            mountPath: "/home/jenkins/agent"
+        yamlMergeStrategy: "override"
+  crumbIssuer:
+    standard:
+      excludeClientIPFromCrumb: false
+  disableRememberMe: false
+  globalNodeProperties:
+  - envVars:
+      env:
+      - key: "PATH"
+        value: "/usr/local/openjdk-8/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+  labelAtoms:
+  - name: "master"
+  markupFormatter: "plainText"
+  mode: NORMAL
+  myViewsTabBar: "standard"
+  numExecutors: 2
+  primaryView:
+    all:
+      name: "all"
+  projectNamingStrategy: "standard"
+  proxy:
+    name: "proxy.neusoft.com"
+    noProxyHost: "10.1.23.*"
+    port: 8080
+    secretPassword: "{AQAAABAAAAAQb69OlZ2pVTMeInIkiqJtWJp3DMgys44enTDCTwzWets=}"
+    testUrl: "https://www.baidu.com"
+    userName: "li_qf"
+  quietPeriod: 5
+  remotingSecurity:
+    enabled: true
+  scmCheckoutRetryCount: 0
+  securityRealm:
+    local:
+      allowsSignup: false
+      enableCaptcha: false
+      users:
+      - id: "jenkins"
+        name: "Jenkins"
+        properties:
+        - "apiToken"
+        - mailer:
+            emailAddress: "xue.lm@neusoft.com"
+        - preferredProvider:
+            providerId: "default"
+      - id: "li_qf"
+        name: "liqingfeng"
+        properties:
+        - "apiToken"
+        - mailer:
+            emailAddress: "li_qf@neusoft.com"
+        - preferredProvider:
+            providerId: "default"
+      - id: "xue_lm"
+        name: "xuelm"
+        properties:
+        - "apiToken"
+        - "myView"
+        - preferredProvider:
+            providerId: "default"
+        - "timezone"
+        - mailer:
+            emailAddress: "xue.lm@neusoft.com"
+  slaveAgentPort: 50000
+  updateCenter:
+    sites:
+    - id: "default"
+      url: "https://updates.jenkins.io/update-center.json"
+  views:
+  - list:
+      columns:
+      - "status"
+      - "weather"
+      - "jobName"
+      - "lastSuccess"
+      - "lastFailure"
+      - "lastDuration"
+      - "buildButton"
+      jobNames:
+      - "C4pro_Nightly_Build"
+      - "C4pro_Release_Build"
+      - "C4pro_Verify_Build"
+      - "env_test"
+      name: "C4pro"
+  - list:
+      columns:
+      - "status"
+      - "weather"
+      - "jobName"
+      - "lastSuccess"
+      - "lastFailure"
+      - "lastDuration"
+      - "buildButton"
+      jobNames:
+      - "android-compile"
+      - "native-verify"
+      name: "Codecheck"
+  - all:
+      name: "all"
+  viewsTabBar: "standard"
+security:
+  apiToken:
+    creationOfLegacyTokenEnabled: false
+    tokenGenerationOnCreationEnabled: false
+    usageStatisticsEnabled: true
+  envInject:
+    enableLoadingFromMaster: false
+    enablePermissions: false
+    hideInjectedVars: false
+  sSHD:
+    port: -1
+unclassified:
+  ansiColorBuildWrapper:
+    colorMaps:
+    - black: "#000000"
+      blackB: "#4C4C4C"
+      blue: "#1E90FF"
+      blueB: "#4682B4"
+      cyan: "#00CDCD"
+      cyanB: "#00FFFF"
+      green: "#00CD00"
+      greenB: "#00FF00"
+      magenta: "#CD00CD"
+      magentaB: "#FF00FF"
+      name: "xterm"
+      red: "#CD0000"
+      redB: "#FF0000"
+      white: "#E5E5E5"
+      whiteB: "#FFFFFF"
+      yellow: "#CDCD00"
+      yellowB: "#FFFF00"
+    - black: "#000000"
+      blackB: "#555555"
+      blue: "#0000AA"
+      blueB: "#5555FF"
+      cyan: "#00AAAA"
+      cyanB: "#55FFFF"
+      defaultBackground: 0
+      defaultForeground: 7
+      green: "#00AA00"
+      greenB: "#55FF55"
+      magenta: "#AA00AA"
+      magentaB: "#FF55FF"
+      name: "vga"
+      red: "#AA0000"
+      redB: "#FF5555"
+      white: "#AAAAAA"
+      whiteB: "#FFFFFF"
+      yellow: "#AA5500"
+      yellowB: "#FFFF55"
+    - black: "black"
+      blackB: "black"
+      blue: "blue"
+      blueB: "blue"
+      cyan: "cyan"
+      cyanB: "cyan"
+      green: "green"
+      greenB: "green"
+      magenta: "magenta"
+      magentaB: "magenta"
+      name: "css"
+      red: "red"
+      redB: "red"
+      white: "white"
+      whiteB: "white"
+      yellow: "yellow"
+      yellowB: "yellow"
+    - black: "#2E3436"
+      blackB: "#2E3436"
+      blue: "#3465A4"
+      blueB: "#3465A4"
+      cyan: "#06989A"
+      cyanB: "#06989A"
+      defaultBackground: 0
+      defaultForeground: 7
+      green: "#4E9A06"
+      greenB: "#4E9A06"
+      magenta: "#75507B"
+      magentaB: "#75507B"
+      name: "gnome-terminal"
+      red: "#CC0000"
+      redB: "#CC0000"
+      white: "#D3D7CF"
+      whiteB: "#D3D7CF"
+      yellow: "#C4A000"
+      yellowB: "#C4A000"
+  buildDiscarders:
+    configuredBuildDiscarders:
+    - "jobBuildDiscarder"
+  defaultFolderConfiguration:
+    healthMetrics:
+    - worstChildHealthMetric:
+        recursive: true
+  extendedEmailPublisher:
+    adminRequiredForTemplateTesting: false
+    allowUnregisteredEnabled: false
+    charset: "UTF-8"
+    debugMode: false
+    defaultBody: "$PROJECT_NAME - Build # $BUILD_NUMBER - $BUILD_STATUS:\r\n\r\nCheck\
+      \ console output at $BUILD_URL to view the results."
+    defaultContentType: "text/html"
+    defaultRecipients: "xue.lm@nuesoft.com"
+    defaultSubject: "$PROJECT_NAME - Build # $BUILD_NUMBER - $BUILD_STATUS!"
+    defaultSuffix: "@neusoft.com"
+    maxAttachmentSize: -1
+    maxAttachmentSizeMb: 0
+    precedenceBulk: false
+    smtpPassword: "{AQAAABAAAAAQpqUpuIecQowRFDdKTvkwRGzyG2bz7by5OWkN+Ug3nqU=}"
+    smtpPort: "587"
+    smtpServer: "smtp.neusoft.com"
+    smtpUsername: "xue.lm"
+    useSsl: true
+    watchingEnabled: false
+  gitHubConfiguration:
+    apiRateLimitChecker: ThrottleForNormalize
+  gitHubPluginConfig:
+    hookUrl: "http://10.1.23.96:30430/github-webhook/"
+  gitSCM:
+    createAccountBasedOnEmail: false
+    showEntireCommitSummaryInChanges: false
+    useExistingAccountWithSameEmail: false
+  globalNexusConfiguration:
+    instanceId: "1b4801d093d040c681f74122bd7457d4"
+  groovyScriptMES:
+    secureOnly: false
+  location:
+    adminAddress: "xue.lm@neusoft.com"
+    url: "http://10.1.23.96:30430/"
+  mailer:
+    authentication:
+      password: "{AQAAABAAAAAQmaE3gZC/QGQ8ZHeaGrupvswpxr748O3TVkbxkIJFjyY=}"
+      username: "xue.lm"
+    charset: "UTF-8"
+    defaultSuffix: "@neusoft.com"
+    smtpHost: "smtp.neusoft.com"
+    smtpPort: "587"
+    useSsl: false
+    useTls: true
+  pollSCM:
+    pollingThreadCount: 10
+tool:
+  cmakeTool:
+    installations:
+    - name: "InSearchPath"
+  git:
+    installations:
+    - home: "git"
+      name: "Default"
